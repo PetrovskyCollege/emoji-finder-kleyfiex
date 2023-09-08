@@ -51,10 +51,11 @@ h1, p {
 
 .cards {
     width: 990px;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
