@@ -1,0 +1,93 @@
+
+html, body {
+    margin: 0;
+    background-color: #EDEEF3;
+}
+
+h1, p {
+    font-family: 'Inter';
+}
+
+.container-head {
+    height: 400px;
+    background-color: #196B78;
+}
+
+.head-text {
+    padding-top: 65px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.emoji-h1 {
+    font-size: 72px;
+    margin-bottom: 25px;
+    color: #CCF8FF;
+}
+
+.find {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0;
+    color: #CCF8FF;
+}
+
+.place {
+    width: 820px;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+.holder {
+    width: 820px;
+    height: 64px;
+    font-family: 'Inter';
+    padding-left: 32px;
+    font-size: 24px;
+    outline: none;
+    border: 1px solid #CED4DA;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cards {
+    width: 990px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 316px;
+    height: 184px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.block span:nth-child(1) {
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Inter';
+}
+
+.block span:nth-child(2) {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+
+.block p {
+    font-size: 12px;
+    width: 268px;
+    text-align: center;
+    margin-top: 20px;
+}
+
